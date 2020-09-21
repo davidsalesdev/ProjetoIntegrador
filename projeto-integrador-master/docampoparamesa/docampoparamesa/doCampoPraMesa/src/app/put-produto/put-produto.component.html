@@ -1,0 +1,56 @@
+<div class="">
+
+  <div class="row mt-5 mb-5">
+    <div class="col-md-3">
+
+    </div>
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-12">
+          <div class="col-md-12 mb-4">
+            <h1 class="text-center mb-4">Atualizar um Produto</h1>
+
+            <div class="form-group">
+              <label class="text-monospace" for="titulo">Nome do Produto:</label>
+              <input type="text" class="form-control" id="titulo" placeholder="Digite aqui o produto"
+                [(ngModel)]='produto.nome'>
+            </div>
+            <div class="form-group">
+              <label class="text-monospace" for="titulo">Preço:</label>
+              <input type="text" class="form-control" id="titulo" placeholder="Digite aqui o preço"
+                [(ngModel)]='produto.preco'>
+            </div>
+            <div class="form-group">
+              <label class="text-monospace" for="titulo">Quantidade em estoque:</label>
+              <input type="text" class="form-control" id="titulo" placeholder="Digite aqui a quantidade"
+                [(ngModel)]='produto.quantidade'>
+            </div>
+
+            <div class="form-group">
+              <label class="text-monospace" for="titulo">Imagem do Produto:</label>
+              <input type="text" class="form-control" id="titulo" placeholder="Upload" [(ngModel)]='produto.imagem'>
+            </div>
+
+            <div class="form-group m-0 mb-3">
+              <label class="text-monospace" for="tema">Escolha uma Categoria ou
+                <a routerLink="/cadastro-categoria">Cadastre uma Categoria</a> </label>
+              <select name="tema" id='categoria' class="form-control" [(ngModel)]='idCategoria'
+                (change)='findByIdCategoria()'>
+                <option *ngFor='let item of listaCategorias' value={{item.id}}>
+                  {{item.nome}}
+                </option>
+              </select>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <button type="button" class="btn btn-outline-info w-100 m-2" (click)="salvar()">Salvar</button>
+            <button class="btn btn-outline-danger w-100 m-2" (click)="btnNao()">Cancelar</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
