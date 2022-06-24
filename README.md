@@ -1,35 +1,27 @@
-p align="center">
+#  Projeto-Integrador 
+
+<p align="center">
 <img src="https://i.imgur.com/SqKN2rp.png?1" alt="Imagem do logo do nosso projeto Do campo pra mesa é um círculo verde escuro com detalhes brancos e uma caixa com legumes em cima e em baixo escrito Do campo pra mesa" />
 </p>
 
-## 🎯 O desafio
-<img align="right" src="https://i.imgur.com/8vwPGFm.jpg?1" alt="Imagem da Onu com os 17 objetivos sustentáveis">
-Desenvolver um e-commerce ou rede social utilizando o que aprendemos no curso. O grupo deve escolher uma das 17 objetivos de desenvolvimento sustentável da Onu como tema do seu projeto. 
-<br>
-Os Objetivos de Desenvolvimento Sustentável são um apelo global à ação para acabar com a pobreza, proteger o meio ambiente e o clima e garantir que as pessoas, em todos os lugares, possam desfrutar de paz e de prosperidade. Estes são os objetivos para os quais as Nações Unidas estão contribuindo a fim de que possamos atingir a Agenda 2030 no Brasil.
-<br>
-
-<hr>
-
-## 💡 Objetivo escolhido e Solução proposta
+## ⚙ Front-End 
 <p align="center">
-<img align="left" src="https://i.imgur.com/xlrRK7Z.png" alt="Objetivo escolhido pelo grupo: objetivo 2 da Onu fome zero e agricultura sustentável">
+<img src="https://imgur.com/n7W3bPD.jpg" alt="Front-End do Projeto">
 </p>
 
-<img align="left" src="https://i.imgur.com/ALcZUGx.jpg" alt="Imagem círculo de ouro com 3 camadas borda externa escrito O que? borda média escrito como? e a camada mais interna escrito por quê? ">
+<p>Home do site Do Campo Pra Mesa.</p>
 
-**O que:** Acabar com a fome, alcançar a segurança alimentar e melhoria da nutrição e promover a agricultura sustentável — Objetivo 2 da ONU.
-
-**Por quê:** Índices de fome e extrema pobreza aumentaram ainda mais em tempos de pandemia do COVID-19. Além disso, produtores rurais estão enfrentando dificuldades para cultivar e distribuir alimentos.
-
-**Como:** Divulgando empresas e sites de instituições que trabalhem com arrecadação e doação de alimentos saudáveis para pessoas em situações vulneráveis e crianças. Trabalhando como mediador entre consumidor e produtor, oferecendo descontos em próximas compras ou garantindo que parte do valor da venda vá para a caridade.
-
-#### **Solução proposta:** Desenvolver uma plataforma de e-commerce na qual diversos consumidores e pequenos produtores rurais possam se conectar, garantindo alimentos sustentáveis em lares. 
 <p align="center">
-<img src="https://i.imgur.com/OJAtGyw.jpg" alt="Imagem a esquerda um produtor rural e a direita um consumidor pesquisando na internet e no centro foto de um monitor com a nosso e-commerce na tela">
+<img src="https://imgur.com/l6CLZSr.jpg" alt="Front-End do Projeto">
 </p>
 
-<hr>
+<p>Home do site Do Campo Pra Mesa.</p>
+
+<p align="center">
+<img src="https://imgur.com/PrJJATs.jpg" alt="Front-End do Projeto">
+</p>
+
+<p>Imagem protótipo da página Loja do Projeto.</p>
 
 ##  ⚙  Tecnologias utilizadas
 <p align="center">
@@ -61,19 +53,7 @@ Utilizamos o Spring initializr para selecionar versão utilizada (Java 8) o gere
 
 <hr>
 
-## 🚀 Deploy e Docker
-<p>
-<img align="left" src="https://i.imgur.com/illDKsD.png?1">
-</p>
-
-Deploy é a fase do desenvolvimento que passamos o que desenvolvemos para a produção. (Você desenvolve o aplicativo na sua máquina e depois coloca ele em um servidor). O deploy ele pode ser feito num contexto de máquina virtual ou em um contexto de contêiner.
-<br></br>
-Docker é um software contêiner da empresa Docker Inc com ele nós podemos colocar as aplicações em um contêiner que possui todos os recursos necessários e que permite e testar, implantar e publicar mais rapidamente.
-<hr>
-
-
-
-## 💪 Nosso time
+## 💪 O time
  <table>
   <tr>
     <td align="center"><a href="https://github.com/davidsalesdev"><img src="https://avatars0.githubusercontent.com/u/66379287?s=460&amp;u=52caf324c7257f87c67ecf0ddd9eff73c46b8e14&amp;v=4" width="100px;" alt=""/><br /><sub><b>David Sales</b></sub></a><br /><a href="#desenvolvedor-david" title="Desenvolvedor">:computer:</a></td>
@@ -82,3 +62,6 @@ Docker é um software contêiner da empresa Docker Inc com ele nós podemos colo
    <td align="center"><a href="https://github.com/paulafigueiredo"><img src="https://avatars1.githubusercontent.com/u/55516024?s=460&amp;v=4" width="100px;" alt=""/><br /><sub><b> Paula Figueiredo </b></sub></a><br /><a href="#desenvolvedora-paula" title="Desenvolvedora">:computer:</a></td>
    <td align="center"><a href="https://github.com/vivianreis"><img src="https://avatars1.githubusercontent.com/u/14953339?s=460&amp;u=16d307524cfb0154d26492d08f954681d1e2150c&amp;v=4" width="100px;" alt=""/><br /><sub><b> Vivian Reis </b></sub></a><br /><a href="#desenvolvedora-vivian" title="Desenvolvedora">:computer:</a></td>
 </table>
+   
+ 
+
